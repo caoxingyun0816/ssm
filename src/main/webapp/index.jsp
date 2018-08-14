@@ -8,7 +8,7 @@
     <script type="text/javascript" src="${basePath}/js/common/jquery-1.8.3.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            location.href = "${basePath}/login";
+            location.href = "${basePath}/jsp/content/adAdd.jsp";
         });
     </script>
 </head>

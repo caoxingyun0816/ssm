@@ -20,11 +20,8 @@
     <script type="text/javascript" src="${basePath}/js/content/adAdd.js"></script>
 </head>
 <body style="background: #e1e9eb;">
-<script type="text/javascript">
-    alert("我是body！");
-</script>
     <form id = "mainForm" method="post" action="${basePath}/ad/add" enctype="multipart/form-data">
-        <input type="hidden" id="message" value="${pageCode}"/>
+        <input type="hidden" id="message" value="${pageCode.msg}"/>
         <input type="hidden" id="basePath" value="${basePath}">
         <div class="right">
             <div class="current">当前位置：<a href="###">内容管理</a> &gt; 广告管理</div>

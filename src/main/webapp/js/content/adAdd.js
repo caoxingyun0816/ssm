@@ -2,7 +2,6 @@
 //先加载页面，再执行js函数。
 $(function() {
     common.showMessage($("#message").val());
-    alert($("#message").val());
 });
 
 function add() {
